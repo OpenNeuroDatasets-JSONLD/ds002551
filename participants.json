@@ -4,10 +4,26 @@
     },
     "gender": {
         "Description": "C57Bl/6J mice",
-	"Levels": {
+        "Levels": {
             "m": "Male",
             "f": "Female"
-	}
+        },
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:Sex",
+                "Label": ""
+            },
+            "Levels": {
+                "f": {
+                    "TermURL": "snomed:248152002",
+                    "Label": ""
+                },
+                "m": {
+                    "TermURL": "snomed:248153007",
+                    "Label": ""
+                }
+            }
+        }
     },
     "field": {
         "Description": "Field strength of the MRI system"
@@ -30,5 +46,4 @@
             "Awake": "Awake (no sedation)"
         }
     }
- 
 }
