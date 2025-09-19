@@ -22,7 +22,8 @@
                     "TermURL": "snomed:248153007",
                     "Label": ""
                 }
-            }
+            },
+            "VariableType": "Categorical"
         }
     },
     "field": {
@@ -52,7 +53,7 @@
                 "TermURL": "nb:ParticipantID",
                 "Label": ""
             },
-            "Identifies": "participant"
+            "VariableType": "Identifier"
         },
         "Description": "There should have been a description here, but there wasn't. :("
     }
